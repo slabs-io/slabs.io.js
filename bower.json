@@ -1,0 +1,19 @@
+{
+  "name": "slabs.io.js",
+  "main": "slabs.io.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/slabs-io/slabs.io.js",
+  "authors": [
+    "Elliot Agro <elliot@slabs.io>"
+  ],
+  "description": "Helper class for slabs",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}
