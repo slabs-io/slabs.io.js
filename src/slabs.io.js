@@ -9,7 +9,15 @@
          * @param data
          */
         send: function(data){
-            window.top.submitSlabData(data);
+
+            // if the send function is available then send the data, otherwise
+            // the user is in test mode and should see the settings they are going to send.
+            if(typeof window.top.submitSlabData === 'function'){
+                window.top.submitSlabData(data);
+            }else{
+                alert('you have correctly sent data from your slab');
+            }
+
         },
 
         /**
@@ -17,8 +25,28 @@
          * @returns {Promise}
          */
         getData: function(){
+
             var id = getUrlParameter('id');
-            return qwest.get('/getdata/'+id, null, {dataType:'json', responseType:'json'});
+
+            if(id !== undefined){
+                return qwest.get('/getdata/'+id, null, {dataType:'json', responseType:'json'});
+            }else{
+                var deferred = Q.defer();
+                deferred.resolve();
+                return deferred.promise;
+            }
+
+
+        },
+
+        /**
+         * asynchronously requests the attached config objects so you can populate your settings
+         * @returns {Promise}
+         */
+        getConfigs : function(){
+            var deferred = Q.defer();
+            deferred.resolve();
+            return deferred.promise;
         }
         
     };

@@ -18,5 +18,9 @@
   ],
   "devDependencies": {
     "qwest": "~1.5.4"
+  },
+  "dependencies": {
+    "slabs.io.js": "~0.0.2",
+    "q": "~2.0.2"
   }
 }

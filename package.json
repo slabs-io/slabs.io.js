@@ -1,6 +1,6 @@
 {
   "name": "slabs.io.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A helper class for slabs",
   "main": "gruntfile.js",
   "scripts": {},
