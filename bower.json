@@ -15,5 +15,8 @@
     "public/lib",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "qwest": "~1.5.4"
+  }
 }
