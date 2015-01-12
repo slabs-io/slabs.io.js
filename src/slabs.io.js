@@ -15,7 +15,8 @@
             if(typeof window.top.submitSlabData === 'function'){
                 window.top.submitSlabData(data);
             }else{
-                alert('you have correctly sent data from your slab');
+                alert('you have correctly sent data from your slab.');
+                console.log(data);
             }
 
         },
