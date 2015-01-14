@@ -1,7 +1,7 @@
 {
   "name": "slabs.io.js",
   "main": "slabs.io.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/slabs-io/slabs.io.js",
   "authors": [
     "Elliot Agro <elliot@slabs.io>"
@@ -17,10 +17,7 @@
     "tests"
   ],
   "devDependencies": {
-    "qwest": "~1.5.4"
-  },
-  "dependencies": {
-    "slabs.io.js": "~0.0.4",
-    "q": "~2.0.2"
+    "qwest": "~1.5.4",
+    "q": "~1.1.2"
   }
 }

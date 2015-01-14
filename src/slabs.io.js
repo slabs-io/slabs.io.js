@@ -1,4 +1,4 @@
-/* global qwest:false */
+/* global qwest:false, Q:false */
 (function(){
     'use strict';
 
