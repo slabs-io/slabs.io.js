@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
 	// Unified Watch Object
 	var watchFiles = {
-		slabsLib:['src/slabs.io.js', 'lib/qwest/qwest.min.js']
+		slabsLib:['src/slabs.io.js', 'lib/qwest/qwest.min.js', 'lib/q/q.js']
 	};
 
 	// Project Configuration
