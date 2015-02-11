@@ -1,7 +1,7 @@
 {
   "name": "slabs.io.js",
   "main": "slabs.io.js",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "homepage": "https://github.com/slabs-io/slabs.io.js",
   "authors": [
     "Elliot Agro <elliot@slabs.io>"
