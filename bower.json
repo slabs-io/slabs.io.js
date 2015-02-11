@@ -18,6 +18,9 @@
   ],
   "devDependencies": {
     "qwest": "~1.5.4",
-    "q": "~1.1.2"
+    "q": "1.1.2"
+  },
+  "resolutions": {
+    "q": "1.1.2"
   }
 }
