@@ -27,17 +27,15 @@
          */
         getData: function(){
 
-            var networkId = getUrlParameter('networkid');
             var outputId = getUrlParameter('outputid');
 
-            if(networkId !== undefined && outputId !== undefined){
-                return qwest.get('/getdata/'+networkId+'/'+outputId, null, {dataType:'json', responseType:'json'});
+            if(outputId !== undefined){
+                return qwest.get('/getdata/'+outputId, null, { dataType:'json', responseType:'json' });
             }else{
                 var deferred = Q.defer();
                 deferred.resolve();
                 return deferred.promise;
             }
-
 
         },
 
